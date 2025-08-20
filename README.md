@@ -180,43 +180,43 @@ Pro-Football Reference listed many positions that not all teams had (eg. BB, ROL
 Calculated coefficients are listed in bold. Any non-bolded figure is set so that approximately 10% of the players receive a perfect score in any one coefficient. In some low variance categories, such as forced fumbles per attempt, the coefficient has been moulded as close to this distribution as possible. The formula for each coefficient and final rating calculation has been listed below.
 
 ### Quarterback
--	a = ((Completions/Attempts) - 0.3)*3.466
--	b = ((Yards/Attempts) - 3)*0.272
--	c = (Touchdowns/Attempts)*26.453
--	d = (Interceptions/Attempts)*41.527
--	Rating = ((a+b+c+d)/6.044)*100
+-	a = ((Completions/Attempts) - 0.3)***3.466**
+-	b = ((Yards/Attempts) - 3)***0.272**
+-	c = (Touchdowns/Attempts)***26.453**
+-	d = (Interceptions/Attempts)***41.527**
+-	Rating = ((a+b+c+d)/**6.044**)*100
 
 ### Running back
--	a = ((Yards/Attempts) - 2)*0.914
--	b = (Touchdowns/Attempts)*32.431
--	c = 2.375 – ((Fumbles/Attempts)*28.946)
--	Rating = ((a+b+c)/4.498)*100
+-	a = ((Yards/Attempts) - 2)***0.914**
+-	b = (Touchdowns/Attempts)***32.431**
+-	c = 2.375 – ((Fumbles/Attempts)***28.946**)
+-	Rating = ((a+b+c)/**4.498**)*100
 
 ### Wide Receiver/Tight End
--	a = ((Receptions/Targets) – 0.5)*7.467
--	b = ((Yards/Receptions) - 7.2)*0.252
--	c = ((Touchdowns/Receptions) + 0.003)*14.933
--	Rating = ((a+b+c)/4.501)*100
+-	a = ((Receptions/Targets) – 0.5)***7.467**
+-	b = ((Yards/Receptions) - 7.2)***0.252**
+-	c = ((Touchdowns/Receptions) + 0.003)***14.933**
+-	Rating = ((a+b+c)/**4.501**)*100
 
 ## Defense
 
 ### Defensive Line
--	a = (((Tackles for Loss + Sacks)/Games Played) - 0.08))*2.111
--	b = ((Forced Fumbles/Games Played) + 0.02)*14.510
--	c = ((Tackles/Games Played) - 1.2)*0.968
--	d = (Passes Deflected/Games Played)*8.856
--	Rating = ((a+b+c+d)/5.568)*100
+-	a = (((Tackles for Loss + Sacks)/Games Played) - 0.08))***2.111**
+-	b = ((Forced Fumbles/Games Played) + 0.02)***14.510**
+-	c = ((Tackles/Games Played) - 1.2)***0.968**
+-	d = (Passes Deflected/Games Played)***8.856**
+-	Rating = ((a+b+c+d)/**5.568**)*100
 
 ### Linebacker
--	a = (((Tackles for Loss + Sacks)/Games Played) - 0.08))*2.698
--	b = (((Interceptions + Forced Fumbles)/Games Played) + 0.015)*10.624
--	c = ((Tackles/Games Played) - 1.15)*0.379
--	d = ((Passes Deflected/Games Played) + 0.04)*4.971
--	Rating = ((a+b+c+d)/5.588)*100
+-	a = (((Tackles for Loss + Sacks)/Games Played) - 0.08))***2.698**
+-	b = (((Interceptions + Forced Fumbles)/Games Played) + 0.015)***10.624**
+-	c = ((Tackles/Games Played) - 1.15)***0.379**
+-	d = ((Passes Deflected/Games Played) + 0.04)***4.971**
+-	Rating = ((a+b+c+d)/**5.588**)*100
 
 ### Defensive Back
--	a = ((Interceptions/Games Played) + 0.05)*6.532
--	b = ((Passes Deflected/Games Played) + 0.03)*2.422
--	c = ((Tackles/Games Played) - 1.3)*0.577
--	Rating = ((a+b+c)/4.418)*100
+-	a = ((Interceptions/Games Played) + 0.05)***6.532**
+-	b = ((Passes Deflected/Games Played) + 0.03)***2.422**
+-	c = ((Tackles/Games Played) - 1.3)***0.577**
+-	Rating = ((a+b+c)/**4.418**)*100
 
