@@ -26,7 +26,7 @@ headers = {'User-Agent':
 
 total_data = []
     
-for i in range(1932,2025):
+for i in range(1999,2025):
     page = "https://www.pro-football-reference.com/years/" + str(i) + "/passing.htm"
     pageTree = requests.get(page, headers=headers)
     pageSoup = BeautifulSoup(pageTree.content, 'html.parser')
@@ -246,7 +246,7 @@ def flat_cols(cols, rev_order=False):
 
 total_rb = []
     
-for i in range(1932,2025):
+for i in range(1999,2025):
     page = "https://www.pro-football-reference.com/years/" + str(i) + "/rushing.htm"
     pageTree = requests.get(page, headers=headers)
     pageSoup = BeautifulSoup(pageTree.content, 'html.parser')
@@ -376,7 +376,7 @@ b_rb_df['rating_adj'].mean()
 
 total_wr = []
     
-for i in range(1932,2025):
+for i in range(1999,2025):
     page = "https://www.pro-football-reference.com/years/" + str(i) + "/receiving.htm"
     pageTree = requests.get(page, headers=headers)
     pageSoup = BeautifulSoup(pageTree.content, 'html.parser')
@@ -572,6 +572,7 @@ offense_final = pd.concat(offense_df_list,ignore_index=True)
 perfect_offense = offense_final.loc[offense_final['rating_adj_1']==158.3]
 
 # offense_final.to_csv(r'C:\Users\thompson.knuth\Desktop\Webscraping Practice\NFL\NFL Offensive Ratings Data Build (2000s) (TK).csv')
+
 
 
 
