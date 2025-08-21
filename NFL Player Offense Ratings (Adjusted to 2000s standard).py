@@ -8,7 +8,7 @@ Created on Fri Oct 21 14:48:03 2022
 import numpy as np
 import pandas as pd
 import requests
-from bs4 import BeautifulSoup
+from beautifulsoup4 import BeautifulSoup
 import time
 
 pd.set_option("max_colwidth", 200)
@@ -572,3 +572,4 @@ offense_final = pd.concat(offense_df_list,ignore_index=True)
 perfect_offense = offense_final.loc[offense_final['rating_adj_1']==158.3]
 
 # offense_final.to_csv(r'C:\Users\thompson.knuth\Desktop\Webscraping Practice\NFL\NFL Offensive Ratings Data Build (2000s) (TK).csv')
+
