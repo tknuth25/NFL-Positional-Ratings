@@ -114,7 +114,7 @@ if st.button("Run scraper"):
 
     # a
 
-    a_qb_sub['cmp_att'] = a_qb_sub['Cmp']/a_qb_sub['Att']
+    a_qb_sub['cmp_att'] = a_qb_sub['Cmp'].astype(float)/a_qb_sub['Att'].astype(float)
 
     a_qb_sub['cmp_att'].mean()
 
@@ -545,3 +545,4 @@ if st.button("Run scraper"):
     perfect_offense = offense_final.loc[offense_final['rating_adj_1']==158.3]
 
     # offense_final.to_csv(r'C:\Users\thompson.knuth\Desktop\Webscraping Practice\NFL\NFL Offensive Ratings Data Build (2000s) (TK).csv')
+
