@@ -47,7 +47,7 @@ for i in range(1932,2025):
     data = pd.DataFrame(a_qb_stats, columns=[column_headers[1:]])
     data['Year']=i
     total_data.append(data)
-    time.sleep(5)
+    time.sleep(10)
 print("Passing stats complete.")
 #%%
 # formatting qb data
@@ -270,7 +270,7 @@ for i in range(1932,2025):
     
     a_df['Year']=i
     total_rb.append(a_df)
-    time.sleep(5)
+    time.sleep(10)
 
 print("Rushing stats complete.")
 
@@ -401,7 +401,7 @@ for i in range(1932,2025):
     df_wr = df_wr.loc[df_wr['Player']!='Player']
     df_wr['Year']=i
     total_wr.append(df_wr)
-    time.sleep(5)
+    time.sleep(10)
 
 print("Receiving stats complete.")
 wr_df = pd.concat(total_wr,ignore_index=True)
@@ -572,6 +572,7 @@ offense_final = pd.concat(offense_df_list,ignore_index=True)
 perfect_offense = offense_final.loc[offense_final['rating_adj_1']==158.3]
 
 # offense_final.to_csv(r'C:\Users\thompson.knuth\Desktop\Webscraping Practice\NFL\NFL Offensive Ratings Data Build (2000s) (TK).csv')
+
 
 
 
